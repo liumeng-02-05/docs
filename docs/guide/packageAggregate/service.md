@@ -12,4 +12,4 @@
 
 ## jsonwebtoken
 >  JSON Web Token(JWT)是一个非常轻巧的规范。这个规范允许我们使用JWT在用户和服务器之间传递安全可靠的信息
-+ [学习文档：](https://github.com/auth0/node-jsonwebtoken#readme)
++ [学习文档：](https://github.com/auth0/node-jsonwebtoken#readme) 
