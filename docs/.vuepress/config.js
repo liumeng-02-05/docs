@@ -19,7 +19,7 @@ module.exports = {
     nav : [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
-      { text: '购买课程', link: 'https://coding.imooc.com/class/401.html' }
+      { text: '学习课程', link: '' }
     ],
     navbar: true,
     sidebar: {
@@ -33,41 +33,38 @@ module.exports = {
           ]
         },
         {
-          title: '服务端项目准备',
+          title: '准备阶段',
           collapsable: false,
           children: [
+            'init/web',
+            'init/service',
             'init/guide',
+            'init/advanced'
           ]
         },
         {
-          title: '服务端新增接口配置',
+          title: '联调阶段',
           collapsable: false,
           children: [
-            'interfaceConfiguration/guide',
+            'joint/service'
           ]
         },
         {
-          title: '服务端数据库配置',
+          title: '发布阶段',
           collapsable: false,
           children: [
-            'databaseConfiguration/guide',
+            'release/init',
+            'release/perfect'
           ]
         },
         {
-          title: '模版文件处理',
+          title: '模块集合',
           collapsable: false,
           children: [
-            'template/guide',
+            'packageAggregate/web',
+            'packageAggregate/service'
           ]
-        },
-        {
-          title: '联调测试',
-          collapsable: false,
-          children: [
-            'jointCommissioning/web',
-            'jointCommissioning/service',
-          ]
-        },
+        }
       ]
     }
   }
