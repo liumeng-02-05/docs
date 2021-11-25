@@ -106,9 +106,9 @@ nginx -s reload
 ## FileZilla 使用方式
 > 向服务器上上传文件可以通过 FileZilla实现。 [FileZilla 下载地址:](https://filezilla-project.org/)
 1. 打开 FileZilla 软件后，点击左上方的连接按钮
-![detail](../images/fillzilla1.jpg)
+![detail](../images/filezilla1.jpg)
 2. 这里会显示你连接的所有站点，点击‘新站点’ 输入服务器的主机地址、用户名、密码 后点击 ‘连接’ 按钮
 3. 连接成功后会显示服务器上的文件内容，左边是你本地文件，右边是服务上的文件
-![detail](../images/fillzilla2.jpg)
+![detail](../images/filezilla2.jpg)
 4. 打开服务上 nginx 配置的入口文件，将前端项目打包后的代码拖到服务上
 5. 文件传输完毕就可以进行访问了

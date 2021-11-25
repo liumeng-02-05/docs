@@ -1,6 +1,7 @@
 module.exports = {
   title: '管理后台文档',
   description : '【毕设】管理后台课程配套文档',
+  base: '/docs/',
   markdown: {
     // markdown-it-anchor 的选项
     anchor: { permalink: false },
@@ -16,6 +17,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   themeConfig : {
+    lastUpdated: '上次更新',
     nav : [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
@@ -40,6 +42,14 @@ module.exports = {
             'init/service',
             'init/guide',
             'init/advanced'
+          ]
+        },
+        {
+          title: '进阶阶段',
+          collapsable: false,
+          children: [
+            'advanced/service',
+            'advanced/web'
           ]
         },
         {
